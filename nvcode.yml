@@ -14,6 +14,7 @@ palette:
   yellow: "#DCDCAA"
   dark_yellow: "#D7BA7D"
   orange: "#CE9178"
+  white_light: "#EEE"
   grey_blue: "#729CB3"
   blue: "#569CD6"
   light_blue: "#9CDCFE"
@@ -23,6 +24,7 @@ palette:
   white: "#ABB2BF"
   black: "#1E1E1E"
   line_grey: "#5C6370"
+  white_light: "#EEE"
   gutter_fg_grey: "#4B5263"
   cursor_grey: "#2C323C"
   visual_grey: "#3E4452"
@@ -157,7 +159,7 @@ highlights:
   TSStructure: "#FF00FF"
   TSInclude: "purple"
   # Variable
-  TSVariable: "light_blue"
+  TSVariable: "white_light"
   TSVariableBuiltin: "light_blue"
   # Text
   TSText: "#FFFF00"
