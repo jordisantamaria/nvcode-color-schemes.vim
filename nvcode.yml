@@ -4,7 +4,7 @@ information:
   author: "Christian Chiarulli <chrisatmachine@gmail.com>"
 
 palette:
-  fg: "#ABB2BF"
+  fg: "#C4C9D4"
   bg: "#1E1E1E"
 
   red: "#D16969"
@@ -24,7 +24,7 @@ palette:
   purple: "#C586C0"
   # cyan: "#FFCA99"
   cyan: "#4EC9B0"
-  white: "#ABB2BF"
+  white: "#C4C9D4"
   black: "#1E1E1E"
   line_grey: "#5C6370"
   # white_light: "#EEE"
