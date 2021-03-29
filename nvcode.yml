@@ -6,7 +6,7 @@ information:
 palette:
   fg: "#C4C9D4"
   bg: "#1E1E1E"
-  normal: "#D0D4DC"
+  current_tab: "#D0D4DC"
   
   red: "#D16969"
   error_red: "#F44747"
@@ -37,7 +37,7 @@ palette:
   vertsplit: "#3E4452"
 
 highlights:
-  Normal: "normal bg"
+  Normal: "fg bg"
 
   Comment: "green - i"
   Constant: "yellow"
@@ -107,6 +107,7 @@ highlights:
   StatusLineNC: "line_grey"
   StatusLineTerm: "white cursor_grey"
   StatusLineTermNC: "cursor_grey"
+  TabCurrent: "current_tab"
   TabLine: "line_grey"
   TabLineSel: "fg"
   TabLineFill: "- bg"
