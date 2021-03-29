@@ -38,6 +38,7 @@ palette:
 
 highlights:
   Normal: "fg bg"
+  TelescopeNormal: "#ABB2BF"
 
   Comment: "green - i"
   Constant: "yellow"
