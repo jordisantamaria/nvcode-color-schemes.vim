@@ -7,7 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='nvcode'
 
-hi Normal guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
+hi Normal guifg=#4ec9b0 ctermfg=79 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
 hi Comment guifg=#608b4e ctermfg=65 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#dcdcaa ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#ce9178 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
