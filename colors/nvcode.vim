@@ -7,7 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='nvcode'
 
-hi Normal guifg=#d0d4dc ctermfg=188 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
+hi Normal guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
 hi Comment guifg=#608b4e ctermfg=65 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#dcdcaa ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#ce9178 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -75,6 +75,7 @@ hi StatusLine guifg=#c4c9d4 ctermfg=252 guibg=#2c323c ctermbg=236 gui=NONE cterm
 hi StatusLineNC guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineTerm guifg=#c4c9d4 ctermfg=252 guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi StatusLineTermNC guifg=#2c323c ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabCurrent guifg=#d0d4dc ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#c4c9d4 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
