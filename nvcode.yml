@@ -36,7 +36,7 @@ palette:
   vertsplit: "#3E4452"
 
 highlights:
-  Normal: "cyan bg"
+  Normal: "white_light bg"
 
   Comment: "green - i"
   Constant: "yellow"
@@ -107,7 +107,7 @@ highlights:
   StatusLineTerm: "white cursor_grey"
   StatusLineTermNC: "cursor_grey"
   TabLine: "line_grey"
-  TabLineSel: "white"
+  TabLineSel: "fg"
   TabLineFill: "- bg"
   Terminal: "white black"
   Visual: "- visual_grey"
