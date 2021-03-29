@@ -6,6 +6,7 @@ information:
 palette:
   fg: "#C4C9D4"
   bg: "#1E1E1E"
+  normal: "#FFCA99"
   
   red: "#D16969"
   error_red: "#F44747"
@@ -36,7 +37,7 @@ palette:
   vertsplit: "#3E4452"
 
 highlights:
-  Normal: "white_light bg"
+  Normal: "normal bg"
 
   Comment: "green - i"
   Constant: "yellow"
