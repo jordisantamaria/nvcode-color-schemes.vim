@@ -5,6 +5,7 @@ information:
 
 palette:
   fg: "#C4C9D4"
+  fg_grey: "#ABB2BF"
   bg: "#1E1E1E"
   current_tab: "#D0D4DC"
   
@@ -328,11 +329,11 @@ highlights:
   BufferVisibleSign: "fg bg"
   BufferVisibleTarget: "red bg b"
 
-  BufferInactive: "white bg"
-  BufferInactiveIndex: "white bg"
-  BufferInactiveMod: "white bg"
-  BufferInactiveSign: "white bg"
-  BufferInactiveTarget: "white bg b"
+  BufferInactive: "fg_grey bg"
+  BufferInactiveIndex: "fg_grey bg"
+  BufferInactiveMod: "fg_grey bg"
+  BufferInactiveSign: "fg_grey bg"
+  BufferInactiveTarget: "fg_grey bg b"
 
   # BufferTabpages: "blue bg_inactive b"
   # BufferTabpageFill: "gutter_fg_grey bg_inactive"
