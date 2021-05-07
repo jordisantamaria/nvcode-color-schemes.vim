@@ -317,24 +317,6 @@ highlights:
   NvimTreeExecFile: "executable"
   NvimTreeSpecialFile: "info_yellow"
 
-  BufferCurrent: "fg bg"
-  BufferCurrentIndex: "blue bg"
-  BufferCurrentMod: "fg bg"
-  BufferCurrentSign: "blue bg"
-  BufferCurrentTarget: "red bg b"
-
-  BufferVisible: "fg bg"
-  BufferVisibleIndex: "fg bg"
-  BufferVisibleMod: "fg bg"
-  BufferVisibleSign: "fg bg"
-  BufferVisibleTarget: "red bg b"
-
-  BufferInactive: "fg_grey bg"
-  BufferInactiveIndex: "fg_grey bg"
-  BufferInactiveMod: "fg_grey bg"
-  BufferInactiveSign: "fg_grey bg"
-  BufferInactiveTarget: "fg_grey bg b"
-
   # BufferTabpages: "blue bg_inactive b"
   # BufferTabpageFill: "gutter_fg_grey bg_inactive"
 
