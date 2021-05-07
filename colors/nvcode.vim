@@ -58,7 +58,7 @@ hi Folded guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#dcdcaa ctermfg=187 guibg=#5c6370 ctermbg=241 gui=NONE cterm=NONE
 hi LineNr guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi MatchParen guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi MatchParen guifg=#569cd6 ctermfg=74 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi NonText guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#c4c9d4 ctermfg=252 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
 hi PmenuSel guifg=#1e1e1e ctermfg=234 guibg=#569cd6 ctermbg=74 gui=NONE cterm=NONE
@@ -246,10 +246,10 @@ hi BufferVisibleIndex guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=NO
 hi BufferVisibleMod guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
 hi BufferVisibleSign guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
 hi BufferVisibleTarget guifg=#d16969 ctermfg=167 guibg=#1e1e1e ctermbg=234 gui=bold cterm=bold
-hi BufferInactive guifg=#4b5263 ctermfg=240 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveIndex guifg=#4b5263 ctermfg=240 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveMod guifg=#4b5263 ctermfg=240 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveSign guifg=#4b5263 ctermfg=240 guibg=#2f343f ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveTarget guifg=#d16969 ctermfg=167 guibg=#2f343f ctermbg=237 gui=bold cterm=bold
+hi BufferInactive guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
+hi BufferInactiveIndex guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
+hi BufferInactiveMod guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
+hi BufferInactiveSign guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=NONE cterm=NONE
+hi BufferInactiveTarget guifg=#c4c9d4 ctermfg=252 guibg=#1e1e1e ctermbg=234 gui=bold cterm=bold
 hi CodiVirtualText guifg=#6395ec ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentBlanklineContextChar guifg=#767a8b ctermfg=244 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

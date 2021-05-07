@@ -299,7 +299,6 @@ highlights:
   QuickScopeSecondary: "#eF5F70 - u"
 
   MatchWord: "- - u"
-  MatchParen: "- - u"
   MatchWordCur: "- - u"
   MatchParenCur: "- - u"
 
@@ -329,11 +328,11 @@ highlights:
   BufferVisibleSign: "fg bg"
   BufferVisibleTarget: "red bg b"
 
-  BufferInactive: "gutter_fg_grey bg_inactive"
-  BufferInactiveIndex: "gutter_fg_grey bg_inactive"
-  BufferInactiveMod: "gutter_fg_grey bg_inactive"
-  BufferInactiveSign: "gutter_fg_grey bg_inactive"
-  BufferInactiveTarget: "red bg_inactive b"
+  BufferInactive: "white bg"
+  BufferInactiveIndex: "white bg"
+  BufferInactiveMod: "white bg"
+  BufferInactiveSign: "white bg"
+  BufferInactiveTarget: "white bg b"
 
   # BufferTabpages: "blue bg_inactive b"
   # BufferTabpageFill: "gutter_fg_grey bg_inactive"
