@@ -1,2 +1,2 @@
-./generate nvcode.yml > ./colors/nvcode.vim
+./generate kuroneko.yml > ./colors/kuroneko.vim
 

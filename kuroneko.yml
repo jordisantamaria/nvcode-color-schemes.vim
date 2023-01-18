@@ -1,21 +1,30 @@
 information:
-  name: onedark
+  name: kuroneko
   background: dark
-  author: "Christian Chiarulli <chrisatmachine@gmail.com>"
+  author: "Jordi Santamaria Portoles"
 
 palette:
-  fg: "#ABB2BF"
-  bg: "#1E2127"
-
-  red: "#E06C75"
+  fg: "#C4C9D4"
+  fg_grey: "#ABB2BF"
+  bg: "#1E1E1E"
+  current_tab: "#D0D4DC"
+  
+  red: "#D16969"
   error_red: "#F44747"
-  green: "#98C379"
-  yellow: "#E5C07B"
-  orange: "#D19A66"
-  blue: "#61AFEF"
+  green: "#608B4E"
+  light_green: "#B5CEA8"
+  yellow: "#DCDCAA"
+  dark_yellow: "#D7BA7D"
+  orange: "#CE9178"
+  orange_light: "#FFCA99"
+  white_light: "#BAF2F2"
+  grey_blue: "#729CB3"
+  blue: "#569CD6"
+  light_blue: "#9CDCFE"
+  vivid_blue: "#4FC1FF"
   purple: "#C586C0"
-  cyan: "#56B6C2"
-  white: "#ABB2BF"
+  cyan: "#4EC9B0"
+  white: "#C4C9D4"
   black: "#1E1E1E"
   line_grey: "#5C6370"
   gutter_fg_grey: "#4B5263"
@@ -23,24 +32,35 @@ palette:
   visual_grey: "#3E4452"
   menu_grey: "#282C34"
   special_grey: "#3B4048"
-  vertsplit: "#181A1F"
+  vertsplit: "#3E4452"
+
+  warning_orange: "#ff8800"
+  info_yellow: "#FFCC66"
+  search_blue: "#1da1f2"
+  git_green: "#81B88B"
+  symlink: "#29B8D8"
+  executable: "#23D18B"
+  tabfill: "#292D38"
+  bg_inactive: "#2F343F"
+  indentlinehighlight: "#767A8B"
 
 highlights:
   Normal: "fg bg"
+  TelescopeNormal: "#ABB2BF"
 
-  Comment: "line_grey - i"
+  Comment: "green - i"
   Constant: "yellow"
-  String: "green"
-  Character: "green"
-  Number: "orange"
+  String: "orange"
+  Character: "orange"
+  Number: "light_green"
   Boolean: "blue"
-  Float: "orange"
+  Float: "light_green"
   Identifier: "blue"
   Function: "yellow"
   Statement: "purple"
   Conditional: "purple"
   Repeat: "purple"
-  Label: "blue"
+  Label: "light_blue"
   Operator: "purple"
   Keyword: "blue"
   Exception: "purple"
@@ -49,9 +69,9 @@ highlights:
   Define: "purple"
   Title: "cyan"
   Macro: "purple"
-  PreCondit: "blue"
-  Type: "blue"
-  StorageClass: "blue"
+  PreCondit: "light_blue"
+  Type: "light_blue"
+  StorageClass: "light_blue"
   Structure: "yellow"
   Typedef: "yellow"
   Special: "blue - i"
@@ -89,15 +109,16 @@ highlights:
   Search: "black yellow"
   SpecialKey: "special_grey"
   SpellBad: "error_red - u"
-  SpellCap: "yellow"
-  SpellLocal: "yellow"
-  SpellRare: "yellow"
+  SpellCap: "dark_yellow"
+  SpellLocal: "dark_yellow"
+  SpellRare: "dark_yellow"
   StatusLine: "white cursor_grey"
   StatusLineNC: "line_grey"
   StatusLineTerm: "white cursor_grey"
   StatusLineTermNC: "cursor_grey"
+  TabCurrent: "current_tab"
   TabLine: "line_grey"
-  TabLineSel: "white"
+  TabLineSel: "fg"
   TabLineFill: "- bg"
   Terminal: "white black"
   Visual: "- visual_grey"
@@ -113,47 +134,48 @@ highlights:
   TSPunctBracket: "white"
   TSPunctSpecial: "white"
   # Constants
-  TSConstant: "blue"
-  TSConstBuiltin: "orange"
+  TSConstant: "yellow"
+  TSConstBuiltin: "blue"
   # Not sure about this guy
   TSConstMacro: "cyan"
-  TSStringRegex: "green"
-  TSString: "green"
-  TSStringEscape: "cyan"
-  TSCharacter: "green"
-  TSNumber: "orange"
-  TSBoolean: "orange"
-  TSFloat: "green"
+  TSStringRegex: "orange"
+  TSString: "orange"
+  TSStringEscape: "dark_yellow"
+  TSCharacter: "orange"
+  TSNumber: "light_green"
+  TSBoolean: "blue"
+  TSFloat: "light_green"
   TSAnnotation: "yellow"
   TSAttribute: "cyan"
-  TSNamespace: "#FF00FF"
+  TSNamespace: "cyan"
   # Functions
-  TSFuncBuiltin: "blue"
-  TSFunction: "blue"
+  TSFuncBuiltin: "yellow"
+  TSFunction: "yellow"
   TSFuncMacro: "yellow"
-  TSParameter: "cyan"
-  TSParameterReference: "cyan"
-  TSMethod: "blue"
-  TSField: "red"
-  TSProperty: "yellow"
+  TSParameter: "light_blue"
+  TSParameterReference: "light_blue"
+  TSMethod: "yellow"
+  TSField: "light_blue"
+  TSProperty: "white_light"
   TSConstructor: "cyan"
   # Keywords
   TSConditional: "purple"
   TSRepeat: "purple"
-  TSLabel: "blue"
+  TSLabel: "light_blue"
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "purple"
+  TSKeyword: "blue"
   TSKeywordFunction: "purple"
-  TSKeywordOperator: "purple"
+  TSKeywordOperator: "blue"
   TSOperator: "white"
   TSException: "purple"
-  TSType: "blue"
+  TSType: "cyan"
   TSTypeBuiltin: "blue"
   TSStructure: "#FF00FF"
   TSInclude: "purple"
   # Variable
-  TSVariable: "cyan"
-  TSVariableBuiltin: "yellow"
+  TSVariable: "light_blue"
+  TSVariableBuiltin: "light_blue"
+  TSNone: 'light_blue'
   # Text
   TSText: "#FFFF00"
   TSStrong: "#FFFF00"
@@ -163,14 +185,14 @@ highlights:
   TSLiteral: "#FFFF00"
   TSURI: "#FFFF00"
   # Tags
-  TSTag: "red"
+  TSTag: "blue"
   TSTagDelimiter: "line_grey"
   # -- END Treesitter --
 
   # -- START Languages --
   # HTML (keep consistent with Markdown, below)
-  htmlArg: "yellow"
-  htmlBold: "yellow - b"
+  htmlArg: "dark_yellow"
+  htmlBold: "dark_yellow - b"
   htmlEndTag: "white"
   htmlH1: "blue"
   htmlH2: "blue"
@@ -180,7 +202,7 @@ highlights:
   htmlH6: "blue"
   htmlItalic: "purple - i"
   htmlLink: "cyan - u"
-  htmlSpecialChar: "yellow"
+  htmlSpecialChar: "dark_yellow"
   htmlSpecialTagName: "blue"
   htmlTag: "white"
   htmlTagN: "blue"
@@ -189,7 +211,7 @@ highlights:
 
   # Markdown (keep consistent with HTML, above)
   markdownBlockquote: "line_grey"
-  markdownBold: "yellow - b"
+  markdownBold: "dark_yellow - b"
   markdownCode: "green"
   markdownCodeBlock: "green"
   markdownCodeDelimiter: "green"
@@ -213,21 +235,6 @@ highlights:
   markdownUrl: "cyan - u"
   # -- END Languages --
 
-  # -- START CoC --
-  CocExplorerIndentLine: "line_grey"
-  CocExplorerBufferRoot: "cyan"
-  CocExplorerFileRoot: "cyan"
-  CocExplorerBufferFullPath: "line_grey"
-  CocExplorerFileFullPath: "line_grey"
-  CocExplorerBufferReadonly: "purple"
-  CocExplorerBufferModified: "purple"
-  CocExplorerBufferNameVisible: "green"
-  CocExplorerFileReadonly: "purple"
-  CocExplorerFileModified: "purple"
-  CocExplorerFileHidden: "line_grey"
-  CocExplorerHelpLine: "purple"
-  # -- END CoC --
-
   # -- START Easymotion --
   EasyMotionTarget: "error_red - b"
   EasyMotionTarget2First: "error_red - b"
@@ -238,14 +245,15 @@ highlights:
 
   # -- END Easymotion --
 
+
   # -- START Startify --
-  StartifyNumber: "orange"
+  StartifyNumber: "light_green"
   StartifySelect: "green"
   StartifyBracket: "blue"
   StartifySpecial: "cyan"
   StartifyVar: "blue"
   StartifyPath: "blue"
-  StartifyFile: "red"
+  StartifyFile: "cyan"
   StartifySlash: "blue"
   StartifyHeader: "green"
   StartifySection: "purple"
@@ -254,7 +262,7 @@ highlights:
   # -- START WhichKey --
   WhichKey: "purple"
   WhichKeySeperator: "green"
-  WhichKeyGroup: "blue"
+  WhichKeyGroup: "vivid_blue"
   WhichKeyDesc: "blue"
   # -- END WhichKey --
   # old stuff
@@ -268,6 +276,54 @@ highlights:
   # ToolbarButton: "suvagray - r"
   debugPc: "- cyan"
   debugBreakpoint: "red - r"
+
+  GitSignsAdd: "#587C0C"
+  GitSignsChange: "#0C7D9D"
+  GitSignsDelete: "#94151B"
+
+  # LspDiagnosticsUnderlineError: "error_red"
+  # LspDiagnosticsUnderlineWarning: "orange"
+  # LspDiagnosticsUnderlineInformation: "yellow"
+  LspDiagnosticsUnderlineHint: "grey_blue"
+
+  LspDiagnosticsSignError: "error_red"
+  LspDiagnosticsSignWarning: "warning_orange"
+  LspDiagnosticsSignInformation: "info_yellow"
+  LspDiagnosticsSignHint: "vivid_blue"
+
+  LspDiagnosticsVirtualTextError: "error_red"
+  LspDiagnosticsVirtualTextWarning: "warning_orange"
+  LspDiagnosticsVirtualTextInformation: "info_yellow"
+  LspDiagnosticsVirtualTextHint: "vivid_blue"
+
+  QuickScopePrimary: "#00C7DF - u"
+  QuickScopeSecondary: "#eF5F70 - u"
+
+  MatchWord: "- - u"
+  MatchWordCur: "- - u"
+  MatchParenCur: "- - u"
+
+  NvimTreeImageFile: "purple"
+  NvimTreeGitDirty: "git_green"
+  NvimTreeGitDeleted: "git_green"
+  NvimTreeGitStaged: "git_green"
+  NvimTreeGitMerge: "git_green"
+  NvimTreeGitRenamed: "git_green"
+  NvimTreeGitNew: "git_green"
+  NvimTreeIndentMarker: "line_grey"
+  NvimTreeSymlink: "symlink"
+  NvimTreeFolderIcon: "blue"
+  NvimTreeRootFolder: "fg - b"
+  NvimTreeExecFile: "executable"
+  NvimTreeSpecialFile: "info_yellow"
+
+  # BufferTabpages: "blue bg_inactive b"
+  # BufferTabpageFill: "gutter_fg_grey bg_inactive"
+
+  CodiVirtualText: "#6395EC"
+  IndentBlanklineContextChar: "indentlinehighlight"
+
+
   # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
   # -- Other junk you can define --
   # Debug
@@ -282,7 +338,7 @@ highlights:
   # MoreMsg", {}) " more-prompt
   # ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
   # ErrorMsg: "red - br"
-  # WarningMsg: "green - br"
+  # WarningMsg: "orange - br"
   # ModeMsg: "yellow - br"
   # MoreMsg: "green - br"
   # Question: "cyan - br"
